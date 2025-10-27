@@ -1,0 +1,1 @@
+{"admin": {"password": "admin123", "email": "admin@gmail.com", "is_admin": true, "date_joined": "2025-10-14 01:46:24.191565"}, "john12": {"password": "pass123", "email": "john12@gmail.com", "is_admin": false, "date_joined": "2025-10-14 01:46:24.191819"}}

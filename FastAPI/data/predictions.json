@@ -1,0 +1,1146 @@
+[
+  {
+    "id": 1,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.41633250233826,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:01:58.636075"
+  },
+  {
+    "id": 2,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.12945594807752,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:01:58.636085"
+  },
+  {
+    "id": 3,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.81887256054378,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:01:58.636088"
+  },
+  {
+    "id": 4,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.50584017362434,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:01:58.636089"
+  },
+  {
+    "id": 5,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.21114481794896,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:01:58.636091"
+  },
+  {
+    "id": 6,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.95051099574826,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:01:58.636092"
+  },
+  {
+    "id": 7,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.73521727809668,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:01:58.636093"
+  },
+  {
+    "id": 8,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.41631774065172,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:02:50.371196"
+  },
+  {
+    "id": 9,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.12942645634527,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:02:50.371204"
+  },
+  {
+    "id": 10,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.8188431058757,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:02:50.371206"
+  },
+  {
+    "id": 11,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.50579604476317,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:02:50.371208"
+  },
+  {
+    "id": 12,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.21110074184344,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:02:50.371209"
+  },
+  {
+    "id": 13,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.95046696630075,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:02:50.371211"
+  },
+  {
+    "id": 14,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.7351586274003,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:02:50.371212"
+  },
+  {
+    "id": 15,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60976474923882,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:29:29.039956"
+  },
+  {
+    "id": 16,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2400820408347,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:29:29.039981"
+  },
+  {
+    "id": 17,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.02129693039626,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:29:29.039986"
+  },
+  {
+    "id": 18,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92671168798597,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:29:29.039989"
+  },
+  {
+    "id": 19,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93571745190303,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:29:29.039992"
+  },
+  {
+    "id": 20,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02652007234732,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:29:29.039994"
+  },
+  {
+    "id": 21,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1805146224291,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:29:29.039997"
+  },
+  {
+    "id": 22,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60976474923882,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:32:25.500248"
+  },
+  {
+    "id": 23,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24011120059097,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:32:25.500254"
+  },
+  {
+    "id": 24,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.02132618304125,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:32:25.500255"
+  },
+  {
+    "id": 25,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92674104828743,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:32:25.500256"
+  },
+  {
+    "id": 26,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.9357469321782,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:32:25.500258"
+  },
+  {
+    "id": 27,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.0265496823221,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:32:25.500259"
+  },
+  {
+    "id": 28,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.18057405589522,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:32:25.500260"
+  },
+  {
+    "id": 29,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60979385418614,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:34:18.691796"
+  },
+  {
+    "id": 30,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2401403805402,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:34:18.691802"
+  },
+  {
+    "id": 31,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0213554559435,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:34:18.691803"
+  },
+  {
+    "id": 32,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92677042892066,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:34:18.691805"
+  },
+  {
+    "id": 33,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93580586883309,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:34:18.691806"
+  },
+  {
+    "id": 34,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02663843452228,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:34:18.691807"
+  },
+  {
+    "id": 35,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1806632193857,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:34:18.691808"
+  },
+  {
+    "id": 36,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60979385418614,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:36:30.933990"
+  },
+  {
+    "id": 37,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2401403805402,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:36:30.934002"
+  },
+  {
+    "id": 38,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0213554559435,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:36:30.934004"
+  },
+  {
+    "id": 39,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92677042892066,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:36:30.934006"
+  },
+  {
+    "id": 40,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93580586883309,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:36:30.934007"
+  },
+  {
+    "id": 41,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02663843452228,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:36:30.934009"
+  },
+  {
+    "id": 42,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1806632193857,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:36:30.934011"
+  },
+  {
+    "id": 43,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60982295913345,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:40:27.585111"
+  },
+  {
+    "id": 44,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24019872025264,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:40:27.585117"
+  },
+  {
+    "id": 45,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0214432164076,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:40:27.585118"
+  },
+  {
+    "id": 46,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92688784040482,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:40:27.585119"
+  },
+  {
+    "id": 47,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93595319608352,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:40:27.585120"
+  },
+  {
+    "id": 48,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02681596623097,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:40:27.585121"
+  },
+  {
+    "id": 49,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.18087126011133,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:40:27.585123"
+  },
+  {
+    "id": 50,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.41633250233826,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:40:57.134708"
+  },
+  {
+    "id": 51,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.12945594807752,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:40:57.134715"
+  },
+  {
+    "id": 52,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.81887256054378,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:40:57.134717"
+  },
+  {
+    "id": 53,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.50584017362434,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:40:57.134719"
+  },
+  {
+    "id": 54,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.21114481794896,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:40:57.134720"
+  },
+  {
+    "id": 55,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.95051099574826,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:40:57.134722"
+  },
+  {
+    "id": 56,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.73520261830384,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:40:57.134723"
+  },
+  {
+    "id": 57,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60979385418614,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:42:31.597854"
+  },
+  {
+    "id": 58,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2401403805402,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:42:31.597864"
+  },
+  {
+    "id": 59,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0213554559435,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:42:31.597867"
+  },
+  {
+    "id": 60,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92677042892066,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:42:31.597870"
+  },
+  {
+    "id": 61,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93580586883309,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:42:31.597872"
+  },
+  {
+    "id": 62,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02660887827102,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:42:31.597874"
+  },
+  {
+    "id": 63,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1806335261666,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:42:31.597876"
+  },
+  {
+    "id": 64,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60979385418614,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:43:22.185261"
+  },
+  {
+    "id": 65,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2401403805402,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:43:22.185271"
+  },
+  {
+    "id": 66,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.02138469084642,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:43:22.185274"
+  },
+  {
+    "id": 67,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92682909944918,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:43:22.185277"
+  },
+  {
+    "id": 68,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.9358647791114,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:43:22.185279"
+  },
+  {
+    "id": 69,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02669760398564,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:43:22.185281"
+  },
+  {
+    "id": 70,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.18075234934446,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:43:22.185284"
+  },
+  {
+    "id": 71,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.25180766692574,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:45:38.635555"
+  },
+  {
+    "id": 72,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 248.26538968712472,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:45:38.635562"
+  },
+  {
+    "id": 73,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.22727808176177,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:45:38.635563"
+  },
+  {
+    "id": 74,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 252.16827818389794,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:45:38.635564"
+  },
+  {
+    "id": 75,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 254.11486537140252,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:45:38.635565"
+  },
+  {
+    "id": 76,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 256.0864453877571,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:45:38.635566"
+  },
+  {
+    "id": 77,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 258.09746969476,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:45:38.635567"
+  },
+  {
+    "id": 78,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60982295913345,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:47:11.152807"
+  },
+  {
+    "id": 79,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24019872025264,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:47:11.152817"
+  },
+  {
+    "id": 80,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0214432164076,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:47:11.152820"
+  },
+  {
+    "id": 81,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.92688784040482,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:47:11.152822"
+  },
+  {
+    "id": 82,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.93595319608352,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:47:11.152824"
+  },
+  {
+    "id": 83,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.02681596623097,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:47:11.152827"
+  },
+  {
+    "id": 84,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.18087126011133,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:47:11.152829"
+  },
+  {
+    "id": 85,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.41633250233826,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 02:48:03.772567"
+  },
+  {
+    "id": 86,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 247.12945594807752,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 02:48:03.772574"
+  },
+  {
+    "id": 87,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.81887256054378,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 02:48:03.772576"
+  },
+  {
+    "id": 88,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.50584017362434,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 02:48:03.772577"
+  },
+  {
+    "id": 89,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 246.21114481794896,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 02:48:03.772578"
+  },
+  {
+    "id": 90,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.95051099574826,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 02:48:03.772580"
+  },
+  {
+    "id": 91,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 245.73521727809668,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 02:48:03.772581"
+  },
+  {
+    "id": 92,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60999758881735,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:13:29.831754"
+  },
+  {
+    "id": 93,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24101531521748,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:13:29.831776"
+  },
+  {
+    "id": 94,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.02334410800827,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 09:13:29.831783"
+  },
+  {
+    "id": 95,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.93029146962013,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 09:13:29.831785"
+  },
+  {
+    "id": 96,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.94125466282603,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 09:13:29.831787"
+  },
+  {
+    "id": 97,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.03435752580344,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 09:13:29.831789"
+  },
+  {
+    "id": 98,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.19100086919997,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 09:13:29.831790"
+  },
+  {
+    "id": 99,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60999758881735,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:13:41.579218"
+  },
+  {
+    "id": 100,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24101531521748,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:13:41.579225"
+  },
+  {
+    "id": 101,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60996848387003,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:14:51.925034"
+  },
+  {
+    "id": 102,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2409569754079,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:14:51.925041"
+  },
+  {
+    "id": 103,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0232563470921,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 09:14:51.925043"
+  },
+  {
+    "id": 104,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.93020338517962,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 09:14:51.925045"
+  },
+  {
+    "id": 105,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.94113678138282,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 09:14:51.925046"
+  },
+  {
+    "id": 106,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.0342391246543,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 09:14:51.925047"
+  },
+  {
+    "id": 107,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1908522309404,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 09:14:51.925048"
+  },
+  {
+    "id": 108,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 251.39396588080268,
+    "predicted_date": "2025-10-21",
+    "created_at": "2025-10-14 09:14:51.925050"
+  },
+  {
+    "id": 109,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 252.6298067217375,
+    "predicted_date": "2025-10-22",
+    "created_at": "2025-10-14 09:14:51.925051"
+  },
+  {
+    "id": 110,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 253.88738312405437,
+    "predicted_date": "2025-10-23",
+    "created_at": "2025-10-14 09:14:51.925053"
+  },
+  {
+    "id": 111,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 255.15781759828602,
+    "predicted_date": "2025-10-24",
+    "created_at": "2025-10-14 09:14:51.925054"
+  },
+  {
+    "id": 112,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 256.43190210738925,
+    "predicted_date": "2025-10-25",
+    "created_at": "2025-10-14 09:14:51.925056"
+  },
+  {
+    "id": 113,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 257.7052565044815,
+    "predicted_date": "2025-10-26",
+    "created_at": "2025-10-14 09:14:51.925057"
+  },
+  {
+    "id": 114,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 258.9733214650489,
+    "predicted_date": "2025-10-27",
+    "created_at": "2025-10-14 09:14:51.925058"
+  },
+  {
+    "id": 115,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 260.23265313595334,
+    "predicted_date": "2025-10-28",
+    "created_at": "2025-10-14 09:14:51.925059"
+  },
+  {
+    "id": 116,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60999758881735,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:31:30.376912"
+  },
+  {
+    "id": 117,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.24101531521748,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:31:30.376926"
+  },
+  {
+    "id": 118,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.02334410800827,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 09:31:30.376931"
+  },
+  {
+    "id": 119,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.93029146962013,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 09:31:30.376933"
+  },
+  {
+    "id": 120,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.94125466282603,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 09:31:30.376935"
+  },
+  {
+    "id": 121,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.03435752580344,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 09:31:30.376939"
+  },
+  {
+    "id": 122,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.19100086919997,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 09:31:30.376941"
+  },
+  {
+    "id": 123,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60996848387003,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:33:00.496608"
+  },
+  {
+    "id": 124,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2409569754079,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:33:00.496622"
+  },
+  {
+    "id": 125,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0232563470921,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 09:33:00.496625"
+  },
+  {
+    "id": 126,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.93020338517962,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 09:33:00.496627"
+  },
+  {
+    "id": 127,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.94113678138282,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 09:33:00.496629"
+  },
+  {
+    "id": 128,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.0342391246543,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 09:33:00.496633"
+  },
+  {
+    "id": 129,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.1908522309404,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 09:33:00.496635"
+  },
+  {
+    "id": 130,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 244.60996848387003,
+    "predicted_date": "2025-10-14",
+    "created_at": "2025-10-14 09:58:51.748636"
+  },
+  {
+    "id": 131,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 245.2409569754079,
+    "predicted_date": "2025-10-15",
+    "created_at": "2025-10-14 09:58:51.748651"
+  },
+  {
+    "id": 132,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.0232563470921,
+    "predicted_date": "2025-10-16",
+    "created_at": "2025-10-14 09:58:51.748654"
+  },
+  {
+    "id": 133,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 246.93017405692203,
+    "predicted_date": "2025-10-17",
+    "created_at": "2025-10-14 09:58:51.748657"
+  },
+  {
+    "id": 134,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 247.9411073330552,
+    "predicted_date": "2025-10-18",
+    "created_at": "2025-10-14 09:58:51.748660"
+  },
+  {
+    "id": 135,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 249.03417998961407,
+    "predicted_date": "2025-10-19",
+    "created_at": "2025-10-14 09:58:51.748662"
+  },
+  {
+    "id": 136,
+    "user": "api_user",
+    "stock": "GOOGL",
+    "predicted_price": 250.19079282125375,
+    "predicted_date": "2025-10-20",
+    "created_at": "2025-10-14 09:58:51.748664"
+  },
+  {
+    "id": 137,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 263.69541058229515,
+    "predicted_date": "2025-10-28",
+    "created_at": "2025-10-27 19:41:45.205777"
+  },
+  {
+    "id": 138,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 260.85790405777743,
+    "predicted_date": "2025-10-29",
+    "created_at": "2025-10-27 19:41:45.205800"
+  },
+  {
+    "id": 139,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 257.8906116903132,
+    "predicted_date": "2025-10-30",
+    "created_at": "2025-10-27 19:41:45.205804"
+  },
+  {
+    "id": 140,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 254.8037421609214,
+    "predicted_date": "2025-10-31",
+    "created_at": "2025-10-27 19:41:45.205806"
+  },
+  {
+    "id": 141,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 251.60316162267785,
+    "predicted_date": "2025-11-01",
+    "created_at": "2025-10-27 19:41:45.205808"
+  },
+  {
+    "id": 142,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 248.27801452969243,
+    "predicted_date": "2025-11-02",
+    "created_at": "2025-10-27 19:41:45.205810"
+  },
+  {
+    "id": 143,
+    "user": "api_user",
+    "stock": "AAPL",
+    "predicted_price": 244.84159034191313,
+    "predicted_date": "2025-11-02",
+    "created_at": "2025-10-27 19:41:45.205811"
+  }
+]

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 1.5rem 2rem;
+            border-radius: 15px;
+            border: 1px solid #333;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            background: transparent;
+            border: 1px solid #333;
+            color: #888;
+            border-radius: 8px;
+            padding: 0.5rem 1.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+            color: #000;
+            border: 1px solid #fff;
+            box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+            color: #000;
+            border: none;
+            padding: 0.8rem 2.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 20px rgba(255,255,255,0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255,255,255,0.5);
+        }
+
+        .card {
+            background: rgba(30, 30, 30, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid #333;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(255, 255, 255, 0.1);
+            border: 1px solid #555;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            color: #ccc;
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            width: 100%;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            color: #fff;
+            padding: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border: 1px solid #666;
+            box-shadow: 0 0 15px rgba(255,255,255,0.1);
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            border: 1px solid #fff;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .metric-card h3 {
+            color: #ccc;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .metric-card h1 {
+            color: #fff;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+            border-left: 4px solid #fff;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            border-radius: 10px;
+            color: #ddd;
+        }
+
+        .success {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 204, 113, 0.05) 100%);
+            border-left: 4px solid #2ecc71;
+            color: #2ecc71;
+        }
+
+        .error {
+            background: linear-gradient(135deg, rgba(231, 76, 60, 0.1) 0%, rgba(231, 76, 60, 0.05) 100%);
+            border-left: 4px solid #e74c3c;
+            color: #e74c3c;
+        }
+
+        .warning {
+            background: linear-gradient(135deg, rgba(241, 196, 15, 0.1) 0%, rgba(241, 196, 15, 0.05) 100%);
+            border-left: 4px solid #f1c40f;
+            color: #f1c40f;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(20, 20, 20, 0.6);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        th {
+            background: rgba(40, 40, 40, 0.8);
+            color: #ccc;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            background: rgba(20, 20, 20, 0.6);
+            border-radius: 10px;
+            padding: 0.5rem;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 0.75rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: #888;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+            color: #000;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+            margin-top: 3rem;
+        }
+
+        #chartContainer {
+            background: rgba(20, 20, 20, 0.6);
+            border-radius: 15px;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">📈 STOCK PREDICTION</div>
+            <div class="nav-buttons" id="navButtons"></div>
+        </div>
+
+        <div id="content"></div>
+
+        <div class="footer">
+            <div style="font-size: 1.2rem; margin-bottom: 0.5rem;">💡 STOCK PREDICTION</div>
+            <div style="color: #444;">Powered by Machine Learning • LSTM Neural Networks</div>
+            <div style="color: #333; margin-top: 0.5rem; font-size: 0.8rem;">© 2025 All Rights Reserved</div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '';
+        let currentUser = null;
+
+        // Initialize app
+        function init() {
+            const userData = localStorage.getItem('currentUser');
+            if (userData) {
+                currentUser = JSON.parse(userData);
+            }
+            updateNav();
+            navigateTo('home');
+        }
+
+        // Navigation
+        function updateNav() {
+            const nav = document.getElementById('navButtons');
+            if (currentUser) {
+                nav.innerHTML = `
+                    <button class="btn" onclick="navigateTo('home')">🏠 HOME</button>
+                    <button class="btn" onclick="navigateTo('profile')">👤 PROFILE</button>
+                    <button class="btn" onclick="navigateTo('history')">📊 HISTORY</button>
+                    ${currentUser.is_admin ? '<button class="btn" onclick="navigateTo(\'admin\')">⚙️ ADMIN</button>' : ''}
+                    <button class="btn" onclick="logout()">🚪 LOGOUT</button>
+                `;
+            } else {
+                nav.innerHTML = `
+                    <button class="btn" onclick="navigateTo('login')">🔐 LOGIN</button>
+                `;
+            }
+        }
+
+        function navigateTo(page) {
+            const content = document.getElementById('content');
+            
+            switch(page) {
+                case 'login':
+                    showLogin();
+                    break;
+                case 'register':
+                    showRegister();
+                    break;
+                case 'home':
+                    showHome();
+                    break;
+                case 'profile':
+                    showProfile();
+                    break;
+                case 'history':
+                    showHistory();
+                    break;
+                case 'admin':
+                    showAdmin();
+                    break;
+            }
+        }
+
+        // Login page
+        function showLogin() {
+            document.getElementById('content').innerHTML = `
+                <div class="card" style="max-width: 500px; margin: 0 auto;">
+                    <h2 style="margin-bottom: 2rem;">🔐 LOGIN</h2>
+                    <div class="form-group">
+                        <label>USERNAME</label>
+                        <input type="text" class="form-control" id="loginUsername">
+                    </div>
+                    <div class="form-group">
+                        <label>PASSWORD</label>
+                        <input type="password" class="form-control" id="loginPassword">
+                    </div>
+                    <div id="loginMessage"></div>
+                    <button class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;" onclick="login()">LOGIN</button>
+                    <button class="btn" style="width: 100%;" onclick="navigateTo('register')">REGISTER</button>
+                </div>
+            `;
+        }
+
+        async function login() {
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const msgDiv = document.getElementById('loginMessage');
+
+            try {
+                const response = await fetch(`${API_BASE}/api/auth/login`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({username, password})
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    currentUser = data;
+                    localStorage.setItem('currentUser', JSON.stringify(data));
+                    msgDiv.innerHTML = '<div class="info-box success">✅ Login successful!</div>';
+                    setTimeout(() => {
+                        updateNav();
+                        navigateTo('home');
+                    }, 1000);
+                } else {
+                    msgDiv.innerHTML = '<div class="info-box error">❌ Invalid credentials</div>';
+                }
+            } catch (error) {
+                msgDiv.innerHTML = '<div class="info-box error">❌ Error: ' + error.message + '</div>';
+            }
+        }
+
+        // Register page
+        function showRegister() {
+            document.getElementById('content').innerHTML = `
+                <div class="card" style="max-width: 500px; margin: 0 auto;">
+                    <h2 style="margin-bottom: 2rem;">📝 REGISTER</h2>
+                    <div class="form-group">
+                        <label>USERNAME</label>
+                        <input type="text" class="form-control" id="regUsername">
+                    </div>
+                    <div class="form-group">
+                        <label>EMAIL</label>
+                        <input type="email" class="form-control" id="regEmail">
+                    </div>
+                    <div class="form-group">
+                        <label>PASSWORD</label>
+                        <input type="password" class="form-control" id="regPassword">
+                    </div>
+                    <div class="form-group">
+                        <label>CONFIRM PASSWORD</label>
+                        <input type="password" class="form-control" id="regConfirm">
+                    </div>
+                    <div id="regMessage"></div>
+                    <button class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;" onclick="register()">REGISTER</button>
+                    <button class="btn" style="width: 100%;" onclick="navigateTo('login')">← BACK TO LOGIN</button>
+                </div>
+            `;
+        }
+
+        async function register() {
+            const username = document.getElementById('regUsername').value;
+            const email = document.getElementById('regEmail').value;
+            const password = document.getElementById('regPassword').value;
+            const confirm = document.getElementById('regConfirm').value;
+            const msgDiv = document.getElementById('regMessage');
+
+            if (password !== confirm) {
+                msgDiv.innerHTML = '<div class="info-box error">❌ Passwords do not match</div>';
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/auth/register`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({username, email, password})
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    msgDiv.innerHTML = '<div class="info-box success">✅ ' + data.message + '</div>';
+                    setTimeout(() => navigateTo('login'), 1500);
+                } else {
+                    msgDiv.innerHTML = '<div class="info-box error">❌ ' + data.detail + '</div>';
+                }
+            } catch (error) {
+                msgDiv.innerHTML = '<div class="info-box error">❌ Error: ' + error.message + '</div>';
+            }
+        }
+
+        // Home page
+        async function showHome() {
+            if (!currentUser) {
+                showLogin();
+                return;
+            }
+
+            const stocksResponse = await fetch(`${API_BASE}/api/stocks`);
+            const stocksData = await stocksResponse.json();
+            const stocks = stocksData.stocks;
+            
+            const stockOptions = Object.entries(stocks).map(([ticker, name]) => 
+                `<option value="${ticker}">${ticker} - ${name}</option>`
+            ).join('');
+
+            document.getElementById('content').innerHTML = `
+                <h2>🎯 TRAIN & FORECAST</h2>
+                <br>
+                <div class="card">
+                    <div class="grid grid-3">
+                        <div class="form-group">
+                            <label>TICKER SYMBOL</label>
+                            <select class="form-control" id="ticker">${stockOptions}</select>
+                        </div>
+                        <div class="form-group">
+                            <label>DAYS AHEAD</label>
+                            <input type="number" class="form-control" id="daysAhead" value="7" min="1" max="30">
+                        </div>
+                        <div class="form-group">
+                            <label>HISTORY PERIOD</label>
+                            <select class="form-control" id="period">
+                                <option value="1y">1 Year</option>
+                                <option value="2y">2 Years</option>
+                                <option value="5y" selected>5 Years</option>
+                                <option value="max">Max</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info-box">💡 <b>TIP:</b> For Indian stocks on NSE, append .NS (e.g., HDFCBANK.NS)</div>
+                    <button class="btn btn-primary" style="width: 100%;" onclick="runPrediction()">🚀 RUN PREDICTION</button>
+                </div>
+                <div id="resultsContainer"></div>
+            `;
+        }
+
+        async function runPrediction() {
+            const ticker = document.getElementById('ticker').value;
+            const period = document.getElementById('period').value;
+            const daysAhead = parseInt(document.getElementById('daysAhead').value);
+            const resultsDiv = document.getElementById('resultsContainer');
+
+            resultsDiv.innerHTML = '<div class="card"><div class="loading"></div> Training model and generating predictions...</div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/predict`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ticker, period, days_ahead: daysAhead})
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    displayResults(data.results, ticker, daysAhead);
+                } else {
+                    resultsDiv.innerHTML = `<div class="info-box error">❌ Error: ${data.detail}</div>`;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="info-box error">❌ Error: ${error.message}</div>`;
+            }
